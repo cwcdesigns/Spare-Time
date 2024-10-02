@@ -26,10 +26,13 @@
     .hero {
       background-image: url('stbackground.png');
       background-size: cover;
-      background-position: center;
+      background-position: center top;
       background-repeat: no-repeat;
       height: 400px; /* Adjust the height as needed */
       width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     /* Navbar styles */
@@ -86,6 +89,10 @@
   </nav>
 
   <section class="hero">
+    <!-- Optionally add text inside the hero section -->
+    <div class="hero-text">
+      <h1>Welcome to Spare-Time Grill</h1>
+    </div>
   </section>
 
   <div class="container">
