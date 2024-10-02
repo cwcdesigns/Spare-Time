@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,13 +22,14 @@
       padding: 20px;
     }
 
-    /* Adjust the hero section for a smaller background image */
-    .hero img {
+    /* Hero section background styling */
+    .hero {
+      background-image: url('stbackground.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px; /* Adjust the height as needed */
       width: 100%;
-      max-width: 1200px; /* Set the maximum width */
-      height: auto; /* Maintain aspect ratio */
-      margin: 0 auto;
-      display: block;
     }
 
     /* Navbar styles */
@@ -84,12 +84,10 @@
       <a href="#">Spare Time Grill - Alexandria, KY</a>
     </div>
   </nav>
-<div>
-  </div>
+
   <section class="hero">
-    <img src="stbackground.png" alt="Background Image">
   </section>
-  </div>
+
   <div class="container">
     <section class="hero-text">
       <p>Hours:</p>
@@ -98,12 +96,15 @@
     </section>
 
     <center>
-
       <div class="map-container" style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
-     <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=7807+Alexandria+Pike,+Alexandria,+KY+41001&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-code-enabler" href="https://kbj9qpmy.com/bp" id="auth-map-data">Internet Provider</a><style>#embed-map-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+        <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+          <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;">
+            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=7807+Alexandria+Pike,+Alexandria,+KY+41001&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+          </div>
+        </div>
+      </div>
     </center>
 
-   
     <hr class="divider">
 
     <section class="menu-section center-text">
@@ -112,7 +113,6 @@
     </section>
   </div>
 
- 
   <footer>
     <p>&copy; 2024 Spare-Time Diner &trade; All rights reserved.</p>
     <p>&copy; 2024 CWC Designs PH: 615-939-1421 &trade; All rights reserved.</p>
