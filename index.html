@@ -1,1 +1,121 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spare-Time Grill</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Leckerli+One&family=Oswald&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Global body and html styles for footer positioning */
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Container for the main content */
+    .container {
+      flex: 1;
+      padding: 20px;
+    }
+
+    /* Adjust the hero section for a smaller background image */
+    .hero img {
+      width: 100%;
+      max-width: 1200px; /* Set the maximum width */
+      height: auto; /* Maintain aspect ratio */
+      margin: 0 auto;
+      display: block;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background: black;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /* Center the text */
+    .hero-text {
+      text-align: center;
+    }
+
+    /* Add rounded edges to the iframe */
+    .map-container iframe {
+      border-radius: 15px; /* Adjust the radius to your liking */
+    }
+
+    /* Divider styles */
+    .divider {
+      border: 1px solid #ddd;
+      margin: 30px 0; /* Adds space around the divider */
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      width: 100%;
+    }
+  </style>
+  
+</head>
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Reviews</a>
+      <a href="#">Images</a>
+      <a href="#">Spare Time Grill - Alexandria, KY</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <img src="stbackground.png" alt="Background Image">
+  </section>
+  
+  <div class="container">
+    <section class="hero-text">
+      <p>Hours:</p>
+      <p>Wed-Sun 11AM - 9PM</p>
+      <p>7807 Alexandria Pike, Alexandria, KY 41001</p>
+    </section>
+
+    <center>
+
+      <div class="map-container" style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+        <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=Spare+Time+Grill&destination=+7807+Alexandria+Pike,+Alexandria,+KY+41001&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" href="https://kbj9qpmy.com/bp" id="authmaps-data">Internet Provider</a><style>#g-mapdisplay img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+      </div>
+    </center>
+
+   
+    <hr class="divider">
+
+    <section class="menu-section center-text">
+      <h2>MENU</h2>
+      <p>Loading..</p>
+    </section>
+  </div>
+
+ 
+  <footer>
+    <p>&copy; 2024 Spare-Time Diner &trade; All rights reserved.</p>
+    <p>&copy; 2024 CWC Designs PH: 615-939-1421 &trade; All rights reserved.</p>
+  </footer>
+</body>
+</html>
