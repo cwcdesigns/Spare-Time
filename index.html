@@ -24,12 +24,13 @@
 
     /* Hero section background styling */
     .hero {
-      background-image: url('stbackground.png');
+      background-image: url('stbackground.png'); /* Ensure this path is correct */
       background-size: cover;
       background-position: center top;
       background-repeat: no-repeat;
-      height: 500px; /* Adjust the height to make it taller */
+      height: 500px; /* Adjust the height */
       width: 100%;
+      background-color: #cccccc; /* Fallback color in case image doesn't load */
     }
 
     /* Navbar styles */
@@ -78,15 +79,15 @@
 <body>
   <nav class="navbar">
     <div>
-      <a href="#">Spare Time Grill - Alexandria, KY</a>
       <a href="#">Home</a>
       <a href="#">Reviews</a>
       <a href="#">Images</a>
+      <a href="#">Spare Time Grill - Alexandria, KY</a>
     </div>
   </nav>
 
   <section class="hero">
-    <!-- Hero background image without text -->
+    <!-- Hero background image only -->
   </section>
 
   <div class="container">
