@@ -69,6 +69,42 @@
       position: relative;
       width: 100%;
     }
+
+    /* Menu styling */
+    .menu-section {
+      text-align: left;
+      padding: 20px;
+    }
+
+    .menu-category h3 {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+
+    .menu-item {
+      margin-bottom: 15px;
+    }
+
+    .item-details {
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+    }
+
+    .price {
+      color: white; /* Set prices to white */
+      font-weight: bold;
+    }
+
+    .description {
+      color: gray;
+    }
+
+    hr {
+      border: 1px solid #ccc;
+    }
   </style>
   
 </head>
@@ -108,7 +144,142 @@
 
     <section class="menu-section center-text">
       <h2>MENU</h2>
-      <p>Loading..</p>
+
+      <div class="menu-category">
+        <h3>Burgers & Chicken Sandwich</h3>
+        <hr>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Classic Cheeseburger*</p>
+            <p class="description">DNA Certified Black Angus Beef, Cheese, Lettuce, Tomato, Onion, Pickle, and Crinkle Cut Fries. Spare-Time sauce is automatically added to Burger, unless requested without!</p>
+            <p class="price">$10.25</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Bacon Cheeseburger*</p>
+            <p class="description">DNA Certified Black Angus Beef, Cheese, Lettuce, Tomato, Onion, Pickle, Two Pieces of Bacon, and Crinkle Cut Fries. Spare-Time sauce is automatically added to Burger, unless requested without!</p>
+            <p class="price">$10.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Spare Burger*</p>
+            <p class="description">Three Lb Sesame seed Bun with Two DNA Certified Black Angus Beef and American Cheese. Top bun includes Mayo and Lettuce. Bottom of middle bun includes Spare-Time Sauce and Lettuce.</p>
+            <p class="price">$12.99</p>
+            <p class="description">Add Bacon for $1.00</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Chicken Breast Sandwich*</p>
+            <p class="description">Includes One cup of dressing! Dressing choices: Ranch, Thousand Island, Italian</p>
+            <p class="price">$10.50</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Salads</h3>
+        <hr>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Garden Salad*</p>
+            <p class="description">Lettuce, Dressing, Cheese, Tomato, Onion. Includes One cup of dressing! Dressing choices: Ranch, Thousand Island, Italian</p>
+            <p class="price">$7.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Chicken Breast Salad*</p>
+            <p class="description">Lettuce, Chicken Breast, Cheese, Lettuce, Tomato, Onion. Spare Time Sauce, and Crinkle Cut Fries.</p>
+            <p class="price">$10.75</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Drinks</h3>
+        <hr>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">SODA</p>
+            <p class="price">$2.25</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">COFFEE</p>
+            <p class="price">$2.75</p>
+          </div>
+        </div>
+        <p class="description">20 oz: Coke, Diet Coke, Coke Zero, Sprite, Root Beer, Lemonade, Sweet Tea, Unsweetened Tea, Free filtered water</p>
+      </div>
+
+      <div class="menu-category">
+        <h3>Sides</h3>
+        <hr>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">French Fries</p>
+            <p class="description">8oz Crinkle cut French Fries. Your choice of dipping sauce: Hickory BBQ, Ranch, Spare-Time Sauce.</p>
+            <p class="price">$3.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Onion Rings</p>
+            <p class="description">8oz of breaded Onion Rings. Your choice of dipping sauce: Hickory BBQ, Ranch, Spare-Time Sauce.</p>
+            <p class="price">$4.99</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Chicken Tenders</p>
+            <p class="description">Four breaded Chicken Tenders with Crinkle cut fries. Your choice of dipping sauce: Hickory BBQ, Ranch, Spare-Time Sauce.</p>
+            <p class="price">$7.99</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Kids Menu</h3>
+        <hr>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Chicken Tenders*</p>
+            <p class="description">Two breaded Chicken Tenders with choice of one side.</p>
+            <p class="price">$5.25</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Kids Classic Burger*</p>
+            <p class="description">DNA Certified Black Angus Beef, Cheese, Lettuce, Tomato, Onion, Pickle. Crinkle Cut Fries. Spare-Time sauce is automatically added to Burger, unless requested without!</p>
+            <p class="price">$5.25</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Desserts</h3>
+        <hr>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Ice Cream (SMALL)</p>
+            <p class="price">$2.50</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="item-details">
+            <p class="title">Ice Cream (LARGE)</p>
+            <p class="price">$3.50</p>
+          </div>
+        </div>
+        <p class="description">Add Ons: Sprinkles .25, Crushed Oreo .50, Roasted Chocolate Almonds .50, Reese’s peanut butter shell .75, Caramel, Strawberry and Butterscotch Syrup $1.00</p>
+      </div>
+
+      <p class="description" style="color: red;">ALLERGY WARNING: MENU ITEMS MAY CONTAIN OR COME INTO CONTACT WITH WHEAT, EGGS, NUTS, AND MILK. ASK OUR STAFF FOR MORE INFORMATION.</p>
     </section>
   </div>
 
