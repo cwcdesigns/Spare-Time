@@ -76,8 +76,8 @@
     }
 
     video {
-      width: 100%;
-      max-width: 600px; /* Set a max width for the video */
+      width: 250px; /* Set the video width to match the image size */
+      height: auto; /* Maintain aspect ratio */
       border-radius: 15px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
@@ -107,14 +107,14 @@
       <a href="images/restaurant_inside-large.jpg" target="_blank"><img src="images/restaurant_inside.jpg" alt="Inside View of Restaurant"></a>
       <a href="images/fries1-large.jpg" target="_blank"><img src="images/fries1.jpg" alt="French Fries"></a>
       <a href="images/dessert1-large.jpg" target="_blank"><img src="images/dessert1.jpg" alt="Dessert Ice Cream"></a>
-    </div>
 
-    <!-- Embedded Local Video -->
-    <div class="video-container">
-      <video controls>
-        <source src="sparetimepromo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <!-- Embedded Local Video resized -->
+      <div class="video-container">
+        <video controls>
+          <source src="sparetimepromo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   </div>
 
