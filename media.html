@@ -75,6 +75,13 @@
       margin: 30px 0;
     }
 
+    video {
+      width: 100%;
+      max-width: 600px; /* Set a max width for the video */
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
   </style>
 </head>
 <body>
@@ -88,7 +95,8 @@
   </nav>
 
   <div class="container">
-    <h1>Spare-Time Grill Media</h1>
+    <h1>Spare-Time Grill Gallery</h1>
+    <p>Explore photos of our delicious dishes, cozy atmosphere, and watch a video of our restaurant!</p>
 
     <!-- Image Grid Section with clickable links -->
     <div class="image-grid">
@@ -100,6 +108,15 @@
       <a href="images/fries1-large.jpg" target="_blank"><img src="images/fries1.jpg" alt="French Fries"></a>
       <a href="images/dessert1-large.jpg" target="_blank"><img src="images/dessert1.jpg" alt="Dessert Ice Cream"></a>
     </div>
+
+    <!-- Embedded Local Video -->
+    <div class="video-container">
+      <video controls>
+        <source src="sparetimepromo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2024 Spare-Time Grill &trade; All rights reserved.</p>
